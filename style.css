@@ -1,0 +1,46 @@
+body
+{
+  font-size: 16pt;
+  margin:0;
+  box-sizing: border-box;
+}
+header > nav ul, footer{
+	list-style: none;
+	background-color: #9e9e9e;
+	margin:0;
+	text-align: center;
+	font-size: 18pt;
+}
+header > nav ul li > a{
+	text-decoration: none;
+	color: #fffffe;
+}
+header > nav ul li{
+	display: inline-block;
+	margin-left: 24px;
+	padding: 10px;
+}
+footer>div{
+	padding: 10px;
+	bottom:0;
+}
+.myphoto{
+	text-align: center;
+	color: #0088c5;
+}
+.myphoto img{
+	width:15%;
+	border: 1px solid #000000;
+	border-radius: 27% 50%;
+}
+.contact-form,.social-media{
+	position: relative;
+	float: left;
+	width: 45%;
+	margin-left: 2%;
+}
+footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
